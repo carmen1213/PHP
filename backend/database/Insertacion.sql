@@ -4,7 +4,7 @@ VALUES (NoobMaster69, manolo@gmail.com, Manolo257, 1, Las Palmas, url);
 INSERT INTO Vehiculos (ID_Vehiculos, Nombre, Modelo, ID_Tipo, Descripcion, Foto, ID_Concesionario, Precio, Valoracion)
 VALUES (, Bugatti,Veyron,premium, es de los modelos mas famosos de la marca,url,,1.200.000,4);
 
-INSERT INTO Concesionario (ID_Concesionario, Nombre, ID_Compañia, Ubicacion, Telefono, Pagina_Web, Email)
+INSERT INTO Concesionario (ID_Concesionario, Nombre, ID_Compañia, Ubicacion, Telefono, Pagina_Web, Email),
 VALUES (,Bugatti,,francia,654321789,bugatti.com,faqsbugatti@gmail.com);
 
 INSERT INTO Favorito (ID_Usuario, ID_Vehiculos)
