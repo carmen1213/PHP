@@ -1,16 +1,23 @@
 INSERT INTO Usuario (Nick, Email, Contraseña, ID_Rango, Localidad, Foto, ID_Reseña)
 VALUES (NoobMaster69, manolo@gmail.com, Manolo257, 1, Las Palmas, url);
+
 INSERT INTO Vehiculos (ID_Vehiculos, Nombre, Modelo, ID_Tipo, Descripcion, Foto, ID_Concesionario, Precio, Valoracion)
-VALUES (Bugatti, Veyron);
+VALUES (, Bugatti,Veyron,premium, es de los modelos mas famosos de la marca,url,,1.200.000,4);
+
 INSERT INTO Concesionario (ID_Concesionario, Nombre, ID_Compañia, Ubicacion, Telefono, Pagina_Web, Email)
-VALUES ();
+VALUES (,Bugatti,,francia,654321789,bugatti.com,faqsbugatti@gmail.com);
+
 INSERT INTO Favorito (ID_Usuario, ID_Vehiculos)
-VALUES ();
+VALUES (,,);
+
 INSERT INTO Rango (ID_Rango, Nombre)
-VALUES ();
+VALUES (,,);
+
 INSERT INTO Reseña (ID_Reseña, Opinion, Valoracion)
-VALUES ();
+VALUES (, me parece buen coche,4);
+
 INSERT INTO Tipo (ID_Reseña, Opinion, Valoracion)
 VALUES ();
+
 INSERT INTO Compañia (ID_Compañia, Nombre, CIF)
-VALUES ();
+VALUES (,bugatti,45967822X,);
