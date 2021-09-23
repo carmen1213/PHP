@@ -9,7 +9,7 @@ Create table Usuario(
     ID_Rango int NOT NULL,
     Localidad VARCHAR(255),
     Foto VARCHAR(255),
-    ID_Reseña INT NOT NULL,
+    ID_Reseña INT,
     PRIMARY KEY(Nick)
 );
 
@@ -22,7 +22,7 @@ Descripción VARCHAR(255),
 Foto VARCHAR(255),
 ID_Concesionario INT NOT NULL,
 Precio INT NOT NULL,
-Valoracion INT NOT NULL,
+Valoracion INT ,
 PRIMARY KEY(ID_Vehiculos)
 );
 
@@ -43,7 +43,7 @@ CREATE Table Favorito(
 );
 
 CREATE Table Rango(
-    ID_Rango INT NOT NULL AUTO_INCREMENT,
+    ID_Rango INT NOT NULL,
     nombre VARCHAR(255),
     PRIMARY KEY (ID_Rango)
 );
