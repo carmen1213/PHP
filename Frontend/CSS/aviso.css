@@ -1,11 +1,11 @@
 body{
-margin-left: 50px;
-margin-right: 50px;
-background-color: rgb(125, 196, 196);
+margin-left: 200px;
+margin-right: 200px;
+background-color: rgb(255, 255, 255);
 }
 
 section{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 #titulo{
@@ -13,4 +13,10 @@ section{
 }
 #definicion{
     text-align: center;
+}
+#sub{
+   text-decoration: underline;
+   text-decoration-color: rgb(0, 255, 34);
+   border-bottom-width: 5px;
+   
 }
