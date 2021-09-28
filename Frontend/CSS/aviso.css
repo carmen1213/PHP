@@ -1,3 +1,16 @@
-head{
+body{
+margin-left: 50px;
+margin-right: 50px;
+background-color: rgb(125, 196, 196);
+}
 
+section{
+    background-color: white;
+}
+
+#titulo{
+    text-align: center;
+}
+#definicion{
+    text-align: center;
 }
